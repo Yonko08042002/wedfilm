@@ -8,3 +8,10 @@ body {
   background-color: #000000;
   font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* custom classNames */
+@layer components {
+  .headerLink {
+    @apply cursor-pointer text-sm font-light text-white transition duration-[.4s] hover:text-red-500;
+  }
+}
